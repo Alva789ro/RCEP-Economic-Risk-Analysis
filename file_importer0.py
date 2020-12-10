@@ -14,8 +14,8 @@ a_balance = pd.read_excel(r'\Users\jesica\Desktop\Maldives Database\maldives_if.
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    passwd = "240170mendozA",
-    database = "maldives_info"
+    passwd = "",
+    database = ""
 )
 
 mycursor = mydb.cursor()
