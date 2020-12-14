@@ -22,8 +22,8 @@ vietnam=pd.read_excel(r'\Users\jesica\Desktop\RCEP_economic_analysis.xlsx', shee
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    passwd = "",
-    database = ""
+    passwd = "240170mendozA",
+    database = "term_asg"
 )
 
 mycursor = mydb.cursor()
@@ -85,4 +85,4 @@ for a, b, c, d, e, f, g, h in zip(vietnam['Year'], vietnam['RGDP'], vietnam['NGD
     mycursor.execute(sqlformula14, [a, b, c, d, e, f, g, h])
 
 
-mydb.commit()
+#mydb.commit()
