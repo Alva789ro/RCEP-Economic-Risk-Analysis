@@ -15,4 +15,4 @@ def plot_creator(ls, x):
 
 
 #Here, write in the second variable the variable that you want to plot for. To know what variables are available, please check the ER diegram, specificallly the columns of the tables from the countries in the SQL database.
-plot_creator(list, 'Net_LB')
+plot_creator(list, 'Account_Balance')
