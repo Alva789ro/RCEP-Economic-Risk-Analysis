@@ -2,10 +2,6 @@ from file_importer0 import australia, brunei, cambodia, china, indonesia, japan,
 import matplotlib.pyplot as plt
 
 
-
-
-#RGDP_graph = plt.plot(australia['Year'], brunei['RGDP'], ['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP']australia['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP'], australia['RGDP'])
-#plt.show()
 list = [australia, brunei, cambodia, china, indonesia, japan, lao, malaysia, myanmar, new_zeland, philipines, singapore, thailand, vietnam]
 names = ['Australia', 'Brunei', 'Cambodia', 'China', 'Indonesia', 'Japan', 'Lao', 'Malaysia', 'Myanmar', 'New Zealand', 'Philippines', 'Singapore', 'Thailand', 'Vietnam']
 
