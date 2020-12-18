@@ -18,12 +18,12 @@ singapore=pd.read_excel(r'\Users\jesica\Desktop\RCEP_economic_analysis.xlsx', sh
 thailand=pd.read_excel(r'\Users\jesica\Desktop\RCEP_economic_analysis.xlsx', sheet_name='Thailand')
 vietnam=pd.read_excel(r'\Users\jesica\Desktop\RCEP_economic_analysis.xlsx', sheet_name='Vietnam')
 
-
+'''
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    passwd = "240170mendozA",
-    database = "term_asg"
+    passwd = "",
+    database = ""
 )
 
 mycursor = mydb.cursor()
@@ -84,5 +84,5 @@ sqlformula14 = "INSERT INTO vietnam VALUES(%s, %s, %s, %s, %s, %s, %s, %s)"
 for a, b, c, d, e, f, g, h in zip(vietnam['Year'], vietnam['RGDP'], vietnam['NGDP'], vietnam['GDP_pc'], vietnam['Inflation'], vietnam['Unemployment_Rate'], vietnam['Net_LB'], vietnam['Account_Balance']):
     mycursor.execute(sqlformula14, [a, b, c, d, e, f, g, h])
 
-
+'''
 #mydb.commit()
