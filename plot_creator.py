@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from file_importer import countries
 
 def plot_creator(data_dict, column_name):
     """
@@ -22,6 +21,3 @@ def plot_creator(data_dict, column_name):
     plt.grid(True)
     plt.tight_layout()
     plt.show()
-
-# Example usage
-# plot_creator(countries, 'Account_Balance')
