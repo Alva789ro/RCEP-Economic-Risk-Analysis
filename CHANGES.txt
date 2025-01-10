@@ -1,0 +1,36 @@
+Version 1.1.0 (2025-01-10)
+Major Updates and Enhancements
+	•	Refactored Python codebase:
+	•	Modularized the project into separate scripts: database_loader.py, plot_creator.py, and main.py.
+	•	Improved code readability and maintainability.
+	•	Enhanced database functionality:
+	•	Updated SQL queries to handle dynamic data calculations, such as averages and totals, more efficiently.
+	•	Added error handling for missing or null data in SQL scripts.
+	•	Upgraded visualization features:
+	•	Integrated dynamic graph generation for customizable variable comparisons.
+	•	Added annotations and improved labeling for clarity in plots.
+	•	Documentation improvements:
+	•	Created a detailed README.md for installation, usage, and technical explanations.
+	•	Added SQL query examples and troubleshooting steps to the repository.
+	•	Expanded analysis:
+	•	Performed a deeper exploration of inflation trends and unemployment statistics.
+	•	Updated projections for the post-2021 period based on additional forecasted data.
+	•	Miscellaneous:
+	•	Updated dataset to include minor corrections in historical records.
+	•	Addressed null value representation issues by introducing proper imputation techniques.
+
+Version 1.0.0 (2020-12-17)
+Initial Release
+	•	Developed the core functionality for importing and processing RCEP economic data from the International Monetary Fund (IMF).
+	•	Set up the database schema:
+	•	Created individual country tables for 14 RCEP member countries.
+	•	Implemented the summary table for aggregated statistics.
+	•	Added Python scripts to:
+	•	Load Excel data into a MySQL database.
+	•	Generate summary statistics using SQL queries.
+	•	Created visualization tools to:
+	•	Plot individual economic indicators for each country.
+	•	Compare trends across multiple countries.
+	•	Delivered the first set of results and insights, including:
+	•	Average NGDP for all member countries.
+	•	Maximum and minimum economic statistics across all variable
